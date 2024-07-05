@@ -1,0 +1,58 @@
+.setting-page {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .setting-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .setting-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .setting-page label {
+    margin-bottom: 10px;
+  }
+  
+  .setting-page input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .setting-page button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .setting-page button:hover {
+    background-color: #0056b3;
+  }
+
+  .top-left-button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .top-left-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
